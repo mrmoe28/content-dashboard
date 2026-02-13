@@ -1,0 +1,21 @@
+# SKILL.md
+
+## Name: social-media-post
+
+**Purpose** – Generates ready‑to‑post content for Facebook, Instagram, LinkedIn, etc., based on best practices and engagement research.
+
+### Tools Used
+- `web_search` – to pull latest trends and examples.
+- `write` – to store the final post text in a file.
+- `message` – to send the post back to you (or any channel).
+
+### Parameters
+- `platform`: `facebook`, `instagram`, `linkedin`, etc. (string)
+- `topic`: What the post is about (e.g., solar panels, new roof) (string)
+- `cta`: Call‑to‑action phrase (string)
+- `hashtags`: Array of relevant hashtags (array of strings)
+
+### Example Usage
+```json
+{"name":"social-media-post","arguments":{"platform":"facebook","topic":"solar panels & new roof","cta":"Learn more today!","hashtags":["#HomeImprovement","#SolarEnergy"]}}
+```
